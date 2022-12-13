@@ -1,0 +1,45 @@
+@import '/src/Sass/variables.scss';
+
+
+.navBar {
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin: 30px 60px;
+
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        @media (max-width: 750px) {
+            flex-direction: column;
+        }
+
+        li {
+            list-style: none;
+
+
+
+            a {
+                text-decoration: none;
+                color: $primary;
+                font-size: 1.2rem;
+                font-weight: bold;
+                transition: all 0.5s;
+
+                @media (max-width: 750px) {
+                    font-size: 1.0rem;
+
+                }
+
+                &:hover {
+                    color: $primaryHover;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}

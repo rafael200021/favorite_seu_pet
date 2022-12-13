@@ -1,0 +1,17 @@
+@import '/src/Sass/variables.scss';
+
+.container {
+    color: $primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    &__anyItens {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

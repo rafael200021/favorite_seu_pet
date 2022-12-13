@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    height: 750px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    margin: auto;
+
+    &__text {
+        h1 {
+            color: #d63c3c;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff4d4dd7;
+            text-align: center;
+
+        }
+
+    }
+
+}

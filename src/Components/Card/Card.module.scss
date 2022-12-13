@@ -1,0 +1,59 @@
+@import '/src/Sass/variables.scss';
+
+.card {
+
+    display: flex;
+    margin: 10px 10px;
+    color: $primary;
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    img {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        max-height: 250px;
+        max-width: 250px;
+
+        @media (max-width: 1000px) {
+            max-width: 100%;
+    
+        }
+
+    }
+
+    &__content {
+        border: 1px solid $primary;
+        padding: 20px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+
+    &__favorite {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    &__icon {
+        cursor: pointer;
+    }
+}

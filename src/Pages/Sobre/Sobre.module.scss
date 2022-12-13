@@ -1,0 +1,36 @@
+@import '/src/Sass/variables.scss';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+    height: 500px;
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+
+    }
+
+    img {
+        border-radius: 10px;
+        width: 50%;
+
+        @media (max-width: 750px) {
+            width: 100%;
+
+        }
+    }
+
+    p {
+        font-size: 30px;
+        text-align: justify;
+        color: $primaryHover;
+
+        @media (max-width: 750px) {
+            font-size: 20px;
+
+        }
+    }
+}
