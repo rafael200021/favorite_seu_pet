@@ -6,7 +6,12 @@
     display: grid;
     grid-template-columns: 200px 1fr;
     margin: 30px 60px;
+    align-items: center;
 
+    h1 {
+        color: $primary;
+
+    }
 
     ul {
         display: flex;

@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Footer.module.scss';
-import Logo from 'assets/images/logo.svg';
 import FacebookIcon from 'assets/icons/facebook.svg';
 import twitterIcon from 'assets/icons/twitter.svg';
 import instagramIcon from 'assets/icons/instagram.svg';
@@ -9,7 +8,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={`${styles.line}`}>
-                <img src={Logo} alt="logo" />
+                <h1>Favorite seu Pet</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odit velit exercitationem rem molestias reiciendis ratione nisi. Odit fugiat in sapiente, sit expedita, repellendus quo unde et ab, earum quis.
                 </p>

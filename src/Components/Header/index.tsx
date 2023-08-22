@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Header.module.scss';
-import Logo from 'assets/images/logo.svg';
 
 export default function Header({ children }: { children: any }) {
 
     return (
         <>
             <nav className={styles.navBar}>
-                <img src={Logo} alt="logo" />
+                <h1>Favorite seu Pet</h1>
 
                 <ul>
                     <li><Link to='/'>Início</Link></li>
